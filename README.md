@@ -1,5 +1,9 @@
 # Homebrew tap
 
-Homebrew packages for [rspc](https://github.com/nathanaelluke/rspc).
+Install rspc and its player dependencies:
 
-The rspc cask will be added with the first published release.
+```sh
+brew install --cask nathanaelluke/tap/rspc
+```
+
+See [rspc](https://github.com/nathanaelluke/rspc#spotify-setup) for Spotify setup.
