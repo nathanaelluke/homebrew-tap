@@ -1,22 +1,22 @@
 cask "rspc" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
-    sha256 "c2a3adf2fe62aaeed25011d4f47f36101e3325d575529813006f69d7f42049ff"
+    sha256 "f824f6a4ee23e17480b232f9173142f051dc1646731e344d7f9d4cddd19e1fc5"
 
-    url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.0/rspc-#{version}-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.1/rspc-#{version}-aarch64-apple-darwin.tar.gz"
 
     depends_on arch: :arm64
     depends_on macos: :ventura
   end
   on_linux do
     on_arm do
-      sha256 "6456d42b3a8401104cb6b85ff0805b7ce120dd3cdbad7f3cd2f5cc4fe794af31"
-      url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.0/rspc-#{version}-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b6d49847045e8f1c2cffdd98b0b3fb7668bfadb60312237b009c885ecaa2dbc4"
+      url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.1/rspc-#{version}-aarch64-unknown-linux-gnu.tar.gz"
     end
     on_intel do
-      sha256 "d394625c29cb8813c7a1853d0bcf5b47e69ee1fd89c409215c04c00489dd648a"
-      url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.0/rspc-#{version}-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eeac97f8b6f06f16a8213e943aa2244e02cf9de6532f5c40c6e889f0dc450230"
+      url "https://github.com/nathanaelluke/rspc/releases/download/v0.1.1/rspc-#{version}-x86_64-unknown-linux-gnu.tar.gz"
     end
   end
 
